@@ -1,3 +1,5 @@
+![Metrics](https://metrics.lecoq.io/ferryhinardi?template=classic&config.timezone=Asia%2FJakarta)
+
 ### Hi there 👋
 
 <!--
