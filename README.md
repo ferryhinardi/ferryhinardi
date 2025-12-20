@@ -27,6 +27,17 @@ Frontend Engineer specializing in ReactJS & React Native, with over 11 years of 
 - 📊 Average: **5.4 commits** per active week
 - 🌟 Most productive year: **2024** with **332 commits**
 
+**2025 Achievements:**
+- 🚀 **1,855 contributions** - Exceptional productivity demonstrating consistent high-impact work
+- 💻 **51% Direct Commits** - Leading code development and feature implementation
+- 👥 **25% Code Reviews** - Active mentorship and quality assurance across teams
+- 🔄 **24% Pull Requests** - Driving collaborative development and innovation
+- 🏢 **28+ Repositories** - Contributing across multiple critical projects:
+  - `traveloka/www` - Main web platform development
+  - `ferryhinardi/supertool` - Personal innovation projects
+  - `traveloka/toolsfe-flight` - Flight ticketing frontend solutions
+- 📈 **Year-round consistency** - Sustained high performance with peak activity in Q1 and Q3
+
 *Note: These contributions are from private Traveloka repositories and don't appear on my public GitHub profile.*
 
 ### 💼 Portfolio
