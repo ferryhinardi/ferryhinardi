@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <style>
+    .title { font: bold 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292e; }
+    .subtitle { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #586069; }
+    .stat-label { font: bold 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #24292e; }
+    .stat-value { font: 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0366d6; }
+    .legend { font: 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #586069; }
+  </style>
+  
+  <!-- Title -->
+  <text x="10" y="25" class="title">Traveloka Contributions (2015-2025)</text>
+  <text x="10" y="45" class="subtitle">Private repository contributions from company work</text>
+  
+  <!-- Statistics -->
+  <g transform="translate(10, 70)">
+    <text x="0" y="0" class="stat-label">Total Commits:</text>
+    <text x="0" y="25" class="stat-value">1,388</text>
+    
+    <text x="150" y="0" class="stat-label">Active Weeks:</text>
+    <text x="150" y="25" class="stat-value">258</text>
+    
+    <text x="300" y="0" class="stat-label">Peak Week:</text>
+    <text x="300" y="25" class="stat-value">20</text>
+    
+    <text x="450" y="0" class="stat-label">Avg/Week:</text>
+    <text x="450" y="25" class="stat-value">5.4</text>
+    
+    <text x="600" y="0" class="stat-label">Best Year:</text>
+    <text x="600" y="25" class="stat-value">2024</text>
+  </g>
+  
+  <!-- Contribution Grid (last 52 weeks) -->
+  <g transform="translate(10, 130)">
+    <rect x="0" y="0" width="10" height="10" 
+        fill="#ebedf0" rx="2">
+        <title>2024-12-22: 0 commits</title>
+      </rect>
+    <rect x="13" y="0" width="10" height="10" 
+        fill="#ebedf0" rx="2">
+        <title>2024-12-29: 0 commits</title>
+      </rect>
+    <rect x="26" y="0" width="10" height="10" 
+        fill="#216e39" rx="2">
+        <title>2025-01-05: 13 commits</title>
+      </rect>
+    <rect x="39" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-01-12: 7 commits</title>
+      </rect>
+    <rect x="52" y="0" width="10" height="10" 
+        fill="#216e39" rx="2">
+        <title>2025-01-19: 13 commits</title>
+      </rect>
+    <rect x="65" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-01-26: 6 commits</title>
+      </rect>
+    <rect x="78" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-02-02: 8 commits</title>
+      </rect>
+    <rect x="91" y="0" width="10" height="10" 
+        fill="#9be9a8" rx="2">
+        <title>2025-02-09: 2 commits</title>
+      </rect>
+    <rect x="104" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-02-16: 7 commits</title>
+      </rect>
+    <rect x="117" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-02-23: 4 commits</title>
+      </rect>
+    <rect x="130" y="0" width="10" height="10" 
+        fill="#216e39" rx="2">
+        <title>2025-03-02: 12 commits</title>
+      </rect>
+    <rect x="143" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-03-09: 5 commits</title>
+      </rect>
+    <rect x="156" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-03-16: 9 commits</title>
+      </rect>
+    <rect x="169" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-03-23: 6 commits</title>
+      </rect>
+    <rect x="182" y="0" width="10" height="10" 
+        fill="#ebedf0" rx="2">
+        <title>2025-03-30: 0 commits</title>
+      </rect>
+    <rect x="195" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-04-06: 4 commits</title>
+      </rect>
+    <rect x="208" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-04-13: 3 commits</title>
+      </rect>
+    <rect x="221" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-04-20: 5 commits</title>
+      </rect>
+    <rect x="234" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-04-27: 7 commits</title>
+      </rect>
+    <rect x="247" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-05-04: 8 commits</title>
+      </rect>
+    <rect x="260" y="0" width="10" height="10" 
+        fill="#9be9a8" rx="2">
+        <title>2025-05-11: 1 commit</title>
+      </rect>
+    <rect x="273" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-05-18: 7 commits</title>
+      </rect>
+    <rect x="286" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-05-25: 7 commits</title>
+      </rect>
+    <rect x="299" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-06-01: 4 commits</title>
+      </rect>
+    <rect x="312" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-06-08: 3 commits</title>
+      </rect>
+    <rect x="325" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-06-15: 5 commits</title>
+      </rect>
+    <rect x="338" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-06-22: 10 commits</title>
+      </rect>
+    <rect x="351" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-06-29: 7 commits</title>
+      </rect>
+    <rect x="364" y="0" width="10" height="10" 
+        fill="#216e39" rx="2">
+        <title>2025-07-06: 11 commits</title>
+      </rect>
+    <rect x="377" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-07-13: 8 commits</title>
+      </rect>
+    <rect x="390" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-07-20: 3 commits</title>
+      </rect>
+    <rect x="403" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-07-27: 5 commits</title>
+      </rect>
+    <rect x="416" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-08-03: 5 commits</title>
+      </rect>
+    <rect x="429" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-08-10: 9 commits</title>
+      </rect>
+    <rect x="442" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-08-17: 6 commits</title>
+      </rect>
+    <rect x="455" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-08-24: 3 commits</title>
+      </rect>
+    <rect x="468" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-08-31: 5 commits</title>
+      </rect>
+    <rect x="481" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-09-07: 10 commits</title>
+      </rect>
+    <rect x="494" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-09-14: 4 commits</title>
+      </rect>
+    <rect x="507" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-09-21: 3 commits</title>
+      </rect>
+    <rect x="520" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-09-28: 3 commits</title>
+      </rect>
+    <rect x="533" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-10-05: 10 commits</title>
+      </rect>
+    <rect x="546" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-10-12: 10 commits</title>
+      </rect>
+    <rect x="559" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-10-19: 9 commits</title>
+      </rect>
+    <rect x="572" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-10-26: 4 commits</title>
+      </rect>
+    <rect x="585" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-11-02: 3 commits</title>
+      </rect>
+    <rect x="598" y="0" width="10" height="10" 
+        fill="#9be9a8" rx="2">
+        <title>2025-11-09: 2 commits</title>
+      </rect>
+    <rect x="611" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-11-16: 6 commits</title>
+      </rect>
+    <rect x="624" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-11-23: 8 commits</title>
+      </rect>
+    <rect x="637" y="0" width="10" height="10" 
+        fill="#30a14e" rx="2">
+        <title>2025-11-30: 9 commits</title>
+      </rect>
+    <rect x="650" y="0" width="10" height="10" 
+        fill="#216e39" rx="2">
+        <title>2025-12-07: 11 commits</title>
+      </rect>
+    <rect x="663" y="0" width="10" height="10" 
+        fill="#40c463" rx="2">
+        <title>2025-12-14: 5 commits</title>
+      </rect>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(10, 160)">
+    <text x="0" y="12" class="legend">Less</text>
+    <rect x="35" y="2" width="10" height="10" fill="#ebedf0" rx="2"/>
+    <rect x="48" y="2" width="10" height="10" fill="#9be9a8" rx="2"/>
+    <rect x="61" y="2" width="10" height="10" fill="#40c463" rx="2"/>
+    <rect x="74" y="2" width="10" height="10" fill="#30a14e" rx="2"/>
+    <rect x="87" y="2" width="10" height="10" fill="#216e39" rx="2"/>
+    <text x="102" y="12" class="legend">More</text>
+  </g>
+</svg>
