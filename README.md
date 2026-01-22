@@ -1,10 +1,10 @@
 <div align="center">
 
-<!-- Animated Wave Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ferry%20Hinardi&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Frontend%20Engineer%20%7C%20React%20%26%20React%20Native%20Specialist&descAlignY=51&descAlign=50"/>
+<!-- Animated Parallax Header Banner -->
+<img src="./assets/header-banner.svg" width="100%" alt="Ferry Hinardi - Frontend Engineer"/>
 
 <!-- Animated Typing SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&multiline=true&width=600&height=80&lines=11%2B+Years+Building+Great+User+Experiences;Currently+%40+Traveloka+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&multiline=true&width=600&height=80&lines=12%2B+Years+Building+Great+User+Experiences;Currently+%40+Traveloka+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!-- Social Badges -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-supertool.id-0066ff?style=for-the-badge&logo=safari&logoColor=white)](https://supertool.id/)
@@ -19,13 +19,13 @@
 
 <img align="right" width="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ferryhinardi&layout=donut-vertical&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages"/>
 
-Frontend Engineer specializing in **ReactJS** & **React Native**, with over **11 years** of software engineering experience since 2013. Currently building innovative tools and contributing to large-scale applications at **Traveloka**.
+Frontend Engineer specializing in **ReactJS** & **React Native**, with over **12 years** of software engineering experience since 2013. Currently building innovative tools and contributing to large-scale applications at **Traveloka**.
 
 ```typescript
 const ferry = {
-  role: "Frontend Engineer",
+  role: "Software Engineer - Web Developer",
   company: "Traveloka",
-  experience: "11+ years",
+  experience: "12+ years",
   specialties: ["React", "React Native", "TypeScript"],
   currentFocus: "Building great user experiences",
   learning: "Psychology & User Behavior"
@@ -82,19 +82,79 @@ const ferry = {
 
 ## Professional Experience
 
-### Frontend Engineer @ Traveloka
+<table>
+<tr>
+<td width="100%">
 
-<img align="right" src="https://img.shields.io/badge/Since-2015-06B6D4?style=flat-square" alt="Since 2015"/>
+### Software Engineer - Web Developer @ Traveloka
+<img align="right" src="https://img.shields.io/badge/2020-Present-0066ff?style=flat-square" alt="2020-Present"/>
 
-- Contributing to Traveloka's flight ticketing platform
-- Building scalable frontend solutions for **millions of users**
-- Working with modern React ecosystem and performance optimization
+- Spearheaded flight booking form redesign with **significant revenue impact**
+- Built custom debugging tool reducing issue resolution time by **30%**
+- Maintaining Transport Products (Flights, Trains, Bus) for millions of users
+- Integrated with **Google Flights, Skyscanner, KAYAK, Wego, Naver**
 
-### Previous Key Projects
+</td>
+</tr>
+<tr>
+<td>
 
-- **Sorabel / Salestock E-Commerce Platform** - Built comprehensive e-commerce solutions
-- **Traveloka Flight Ticketing** - Developed user-facing features for flight booking system
-- Multiple production-grade applications with focus on user experience and performance
+### Software Engineer - React Native Developer @ PT Trinusa Travelindo (Traveloka)
+<img align="right" src="https://img.shields.io/badge/2019-2020-06B6D4?style=flat-square" alt="2019-2020"/>
+
+- Pioneered Traveloka's **Visa product** from concept to launch
+- Built cross-platform experience using **React Native & React.js**
+- Enabled visa applications for Japan, Australia, China, India
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Software Engineer Developer @ PT. Global Prima Solusindo
+<img align="right" src="https://img.shields.io/badge/2018-2019-06B6D4?style=flat-square" alt="2018-2019"/>
+
+- Architected comprehensive **education platform** bridging students, teachers, parents
+- Designed robust **GraphQL backend** and cross-platform applications
+- Established technical documentation standards
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Software Engineer - React Developer @ PT Salestock Indonesia (Sorabel)
+<img align="right" src="https://img.shields.io/badge/2016-2018-06B6D4?style=flat-square" alt="2016-2018"/>
+
+- Built **Warehouse Management System (WMS)** using React.js
+- Enhanced mobile app with React Native (feed, checkout, payments, reviews)
+- Streamlined fulfillment pipeline from purchase orders to delivery
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Software Engineer @ PT Suzuki Indomobil
+<img align="right" src="https://img.shields.io/badge/2015-2016-06B6D4?style=flat-square" alt="2015-2016"/>
+
+- Enterprise-scale challenges in automotive industry
+- Hardware-software integration and legacy system modernization
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Front End Engineer @ Bina Nusantara
+<img align="right" src="https://img.shields.io/badge/2013-2015-06B6D4?style=flat-square" alt="2013-2015"/>
+
+- First professional web development experience
+- Mastered HTML, CSS, JavaScript, jQuery, AJAX, JSON
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -106,7 +166,7 @@ const ferry = {
 
 </div>
 
-### Private Repository Stats (2015-2025)
+### Private Repository Stats (2020-2025)
 
 <table>
 <tr>
@@ -187,6 +247,68 @@ const ferry = {
 Check out my latest work and experiments showcasing various tools and projects.
 
 </div>
+
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### Traveloka Flight
+[![Live](https://img.shields.io/badge/Live-traveloka.com-0066ff?style=flat-square)](https://www.traveloka.com/en-id/flight)
+
+Led the complete redesign of Traveloka's flight booking experience for millions of users across Southeast Asia. Integrated with Google Flights, Skyscanner, KAYAK, Wego, and Naver.
+
+`React.js` `TypeScript` `GraphQL` `AWS` `Next.js`
+
+</td>
+<td width="50%">
+
+### Supertool.id
+[![Live](https://img.shields.io/badge/Live-supertool.id-0066ff?style=flat-square)](https://supertool.id/)
+
+A comprehensive suite of 50+ developer tools and utilities including JSON formatters, code generators, and image optimizers. Built for speed and privacy with client-side processing.
+
+`Next.js` `TypeScript` `Vercel` `Tailwind CSS`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Maideasy
+[![Live](https://img.shields.io/badge/Live-maideasy.my-06B6D4?style=flat-square)](https://www.maideasy.my)
+
+Mobile-first platform revolutionizing home cleaning services booking in Malaysia. Features intuitive booking flows, real-time cleaner tracking, and secure payment integration.
+
+`React Native` `TypeScript` `Firebase` `GraphQL`
+
+</td>
+<td width="50%">
+
+### Jaztip
+[![Live](https://img.shields.io/badge/Live-jaztip.com-06B6D4?style=flat-square)](https://www.jaztip.com)
+
+Indonesia's innovative social-commerce marketplace combining e-commerce with community-driven buying. Smart integrations with WhatsApp, Line, and Telegram.
+
+`React.js` `JavaScript` `Firebase` `Node.js`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+### Ryna
+
+Co-living platform designed specifically for women's safety, community, and convenience. Features verified safe locations, community building, and transparent landlord vetting.
+
+`React.js` `Node.js` `MongoDB` `Express`
+
+</td>
+</tr>
+</table>
 
 ---
 

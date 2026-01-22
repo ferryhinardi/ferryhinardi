@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0066ff"/>
+      <stop offset="50%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#0066ff"/>
+    </linearGradient>
+    
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#ffffff"/>
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+  
+  <!-- Parallax Layer 1: Deep stars (slowest) -->
+  <g opacity="0.3">
+    <circle cx="50" cy="40" r="1" fill="#fff">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="80" r="1.5" fill="#fff">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="30" r="1" fill="#fff">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="60" r="1.2" fill="#06b6d4">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="25" r="1" fill="#fff">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="70" r="1.3" fill="#fff">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="45" r="1" fill="#0066ff">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="55" r="1.5" fill="#fff">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1150" cy="35" r="1" fill="#06b6d4">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Parallax Layer 2: Medium stars -->
+  <g opacity="0.5">
+    <circle cx="100" cy="120" r="1.5" fill="#fff">
+      <animate attributeName="cy" values="120;115;120" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="180" r="2" fill="#06b6d4">
+      <animate attributeName="cy" values="180;172;180" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="140" r="1.5" fill="#fff">
+      <animate attributeName="cy" values="140;134;140" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="550" cy="200" r="1.8" fill="#0066ff">
+      <animate attributeName="cy" values="200;193;200" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="160" r="1.5" fill="#fff">
+      <animate attributeName="cy" values="160;153;160" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="190" r="2" fill="#06b6d4">
+      <animate attributeName="cy" values="190;182;190" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="130" r="1.5" fill="#fff">
+      <animate attributeName="cy" values="130;124;130" dur="6.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="170" r="1.8" fill="#0066ff">
+      <animate attributeName="cy" values="170;163;170" dur="5.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Parallax Layer 3: Floating geometric shapes -->
+  <g opacity="0.15">
+    <!-- Hexagons -->
+    <polygon points="80,220 95,210 110,220 110,240 95,250 80,240" fill="none" stroke="#0066ff" stroke-width="1">
+      <animate attributeName="transform" values="translate(0,0);translate(5,-10);translate(0,0)" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="1080,80 1095,70 1110,80 1110,100 1095,110 1080,100" fill="none" stroke="#06b6d4" stroke-width="1">
+      <animate attributeName="transform" values="translate(0,0);translate(-5,8);translate(0,0)" dur="9s" repeatCount="indefinite"/>
+    </polygon>
+    
+    <!-- Circles -->
+    <circle cx="200" cy="250" r="15" fill="none" stroke="#06b6d4" stroke-width="1">
+      <animate attributeName="r" values="15;18;15" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="250" r="12" fill="none" stroke="#0066ff" stroke-width="1">
+      <animate attributeName="r" values="12;15;12" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Triangles -->
+    <polygon points="350,260 365,235 380,260" fill="none" stroke="#0066ff" stroke-width="1">
+      <animate attributeName="transform" values="rotate(0,365,250);rotate(360,365,250)" dur="20s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="850,70 865,45 880,70" fill="none" stroke="#06b6d4" stroke-width="1">
+      <animate attributeName="transform" values="rotate(0,865,60);rotate(-360,865,60)" dur="25s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Parallax Layer 4: Glowing orbs -->
+  <g filter="url(#softGlow)">
+    <circle cx="150" cy="150" r="40" fill="url(#accentGradient)" opacity="0.05">
+      <animate attributeName="cx" values="150;170;150" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="150;140;150" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="150" r="50" fill="url(#accentGradient)" opacity="0.05">
+      <animate attributeName="cx" values="1050;1030;1050" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="150;160;150" dur="13s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Animated grid lines (subtle) -->
+  <g opacity="0.08">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#0066ff" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.05;0.15;0.05" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#06b6d4" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.08;0.12;0.08" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#0066ff" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.05;0.1;0.05" dur="6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="800" y1="0" x2="800" y2="300" stroke="#06b6d4" stroke-width="0.5">
+      <animate attributeName="opacity" values="0.06;0.12;0.06" dur="5.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Main content layer -->
+  <g filter="url(#glow)">
+    <!-- Name -->
+    <text x="600" y="115" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#textGradient)">
+      Ferry Hinardi
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Title -->
+    <text x="600" y="155" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#a1a1aa">
+      Software Engineer - Web Developer | React &amp; React Native Specialist
+    </text>
+    
+    <!-- Accent line -->
+    <rect x="450" y="175" width="300" height="2" fill="url(#accentGradient)" rx="1">
+      <animate attributeName="width" values="0;300;300" dur="2s" fill="freeze"/>
+      <animate attributeName="x" values="600;450;450" dur="2s" fill="freeze"/>
+    </rect>
+    
+    <!-- Tagline -->
+    <text x="600" y="210" text-anchor="middle" font-family="'Fira Code', monospace" font-size="14" fill="#06b6d4" opacity="0.8">
+      Building great user experiences for 12+ years
+    </text>
+  </g>
+  
+  <!-- Tech icons floating (simplified representations) -->
+  <g opacity="0.6">
+    <!-- React icon (simplified) -->
+    <g transform="translate(180, 150)">
+      <ellipse cx="0" cy="0" rx="20" ry="8" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(0)">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="0" rx="20" ry="8" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(60)">
+        <animateTransform attributeName="transform" type="rotate" values="60;420" dur="8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="0" rx="20" ry="8" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(120)">
+        <animateTransform attributeName="transform" type="rotate" values="120;480" dur="8s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="0" cy="0" r="4" fill="#61DAFB"/>
+      <animate attributeName="transform" values="translate(180,150);translate(185,145);translate(180,150)" dur="6s" repeatCount="indefinite"/>
+    </g>
+    
+    <!-- TypeScript icon (simplified) -->
+    <g transform="translate(1020, 150)">
+      <rect x="-15" y="-15" width="30" height="30" rx="4" fill="#3178C6"/>
+      <text x="0" y="6" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#fff">TS</text>
+      <animate attributeName="transform" values="translate(1020,150);translate(1015,155);translate(1020,150)" dur="7s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  
+  <!-- Bottom wave effect -->
+  <path d="M0,280 Q300,260 600,280 T1200,280 L1200,300 L0,300 Z" fill="url(#accentGradient)" opacity="0.1">
+    <animate attributeName="d" 
+      values="M0,280 Q300,260 600,280 T1200,280 L1200,300 L0,300 Z;
+              M0,280 Q300,290 600,270 T1200,280 L1200,300 L0,300 Z;
+              M0,280 Q300,260 600,280 T1200,280 L1200,300 L0,300 Z" 
+      dur="8s" repeatCount="indefinite"/>
+  </path>
+</svg>
