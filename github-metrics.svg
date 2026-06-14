@@ -2314,7 +2314,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>raymondchins/agentmap</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 15 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">The repo map your coding agent is forced to use — ~98% fewer tokens (up to 99.9% per task) to understand a TS/JS codebase. PageRank hubs, Aider-style symbol ranking, token-budgeted digest, --any router, wired into the agent loop.</div>
@@ -2541,7 +2541,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 15 Jun 2026, 04:01:46 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 15 Jun 2026, 06:00:49 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
